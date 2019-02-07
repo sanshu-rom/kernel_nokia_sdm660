@@ -19,8 +19,8 @@ make -C $(pwd) O=output DRG_defconfig
 make -j32 -C $(pwd) O=output
 cp -r output/arch/arm64/boot/Image.gz-dtb /home/ubuntu/kernel/DRG
 cd DRG
-zip -r DRG_Sprout_9.0_RV-3.0-KERNEL-By-Raghuvarma.zip META-INF patch tools Image.gz-dtb anykernel.sh
-gdrive upload DRG_Sprout_9.0_RV-3.0-KERNEL-By-Raghuvarma.zip
+zip -r DRG_Sprout_8.1.0_RV-3.0-KERNEL-By-Raghuvarma.zip META-INF patch tools Image.gz-dtb anykernel.sh
+gdrive upload DRG_Sprout_8.1.0_RV-3.0-KERNEL-By-Raghuvarma.zip
 cd ..
 
 
