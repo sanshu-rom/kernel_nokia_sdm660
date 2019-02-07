@@ -20,7 +20,7 @@ make -j32 -C $(pwd) O=output
 cp -r output/arch/arm64/boot/Image.gz-dtb /home/ubuntu/kernel/B2N
 cd B2N
 zip -r B2N_Sprout_9.0_RV-3.0-KERNEL-By-Raghuvarma.zip META-INF patch tools Image.gz-dtb anykernel.sh
-gdrive upload B2N_Sprout_9.0_RV-3.0-KERNEL-By-Raghuvarma.zip
+gdrive upload B2N_Sprout_8.1.0_RV-3.0-KERNEL-By-Raghuvarma.zip
 cd ..
 
 
