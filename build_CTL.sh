@@ -26,6 +26,6 @@ cd ..
 
 echo "--------------------------------------------"
 echo "All Right now flash at your own risk"
-echo "Flashable Zip located in RV Folder"
+echo "Flashable Zip located in CTL Folder"
 echo "Good Bye ..!! @ RaghuVarma "
 echo "--------------------------------------------"
